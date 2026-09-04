@@ -15,7 +15,7 @@ provider "aws" {
 resource "aws_s3_bucket" "site" {
   bucket = var.bucket_name
   tags = {
-    Proyecto = "DevSecOps-Lab3-4-Luz"
+    Proyecto = "devsecops-lab-luzmy-2026-947381625"
     Entorno  = "laboratorio"
   }
 }
